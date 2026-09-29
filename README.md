@@ -2,7 +2,7 @@
 
 **Reproducible Salesforce test data for sandboxes and scratch orgs.**
 
-Harvester is an open source tool for generating, previewing, and loading connected test scenarios. A subsequent capability will harvest a selected set of records from one sandbox and recreate their relationships in another. The project is at the design and scaffold stage; **it cannot connect to an org or load records yet**.
+Harvester is an open source tool for generating, previewing, and loading connected test scenarios. A subsequent capability will harvest a selected set of records from one sandbox and recreate their relationships in another. The initial Apex Lead loader is a prototype in a draft PR. It has not been deployed or tested in a live org yet.
 
 ## Why
 
@@ -17,15 +17,15 @@ A Salesforce test often needs a believable record graph, not isolated CSV rows. 
 5. Read back the graph and report desired versus observed state, with IDs, errors, and a run identifier.
 6. Run again with an explicit policy for already-created records.
 
-The [example recipe](examples/account-opportunity.json) illustrates the proposed format. It is a **design example**, not an executable input today.
+The [Lead dataset and first-load guide](docs/lead-first-load.md) give the first executable path. The [Account–Opportunity recipe](examples/account-opportunity.json) remains a design example.
 
 ## Scope and sequence
 
 | Milestone | Outcome |
 | --- | --- |
-| M0 — design | Motivation, SDD, ADRs, reflective generation model, repository layout, and sample recipe |
-| M1 — generation | Authenticate to a sandbox or scratch org; describe supported objects; plan and load one connected Account–Contact scenario; verify relationships and rerun behavior |
-| M2 — richer scenarios | Opportunity, Product, Pricebook, OpportunityLineItem; deterministic generation; field overrides; error reporting |
+| M0 — design and Lead prototype | Design documents, 30 synthetic Leads, Apex PLAN/APPLY service and tests; org deployment pending |
+| M1 — Lead proof | Deploy and test in a disposable org; read back Lead state; establish rerun policy and org guard |\n| M2 — connected generation | Plan and load Account–Contact, then Opportunity and required pricing records |
+
 | M3 — harvesting | Select a bounded source graph; redact sensitive fields; map IDs and load into a target; verify links |
 | Later | Large-volume jobs, complex cycles, files, and a UI, guided by real use cases |
 
@@ -36,13 +36,13 @@ Harvester concerns **record data**, not metadata deployments. It complements Sal
 - `docs/motivation.md` — problem, audience, and boundaries
 - `docs/sdd.md` — architecture, contracts, workflow, and acceptance criteria
 - `docs/reflective-generation.md` — org inspection, reconciliation, verification, and researched comparison
-- `docs/adr/` — decisions and consequences
+- `docs/lead-first-load.md` — Apex Lead proof and run instructions\n- `docs/adr/` — decisions and consequences
 - `examples/` — proposed scenario recipes
 - `src/` and `test/` — reserved layout for the first implementation
 
 ## Safety principles
 
-The initial target is a sandbox or scratch org. Writes require an explicit target alias and confirmation. Preview is read-only. Credentials and harvested personal data must not be committed. Source data is never written to the target without an explicit field policy. See [ADR 0004](docs/adr/0004-data-safety.md).
+The initial target is a sandbox or scratch org. The prototype requires an exact org ID for APPLY; its Apex code does not yet enforce non-production org classification. The caller must check the target. Preview is read-only. Credentials and harvested personal data must not be committed. Source data is never written to the target without an explicit field policy. See [ADR 0004](docs/adr/0004-data-safety.md).
 
 ## Contributing
 
@@ -50,4 +50,4 @@ Design feedback and concrete test scenarios are welcome. Start with the SDD and 
 
 ## Status
 
-M0 design scaffold. No Salesforce operations are implemented.
+Apex Lead PLAN/APPLY prototype committed. It has not been compiled, deployed, or executed in an org in this session. Read-back verification and cross-run idempotency remain open.
