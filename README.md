@@ -1,5 +1,7 @@
 # Harvester
 
+<img src="assets/harvester-logo.png" alt="Harvester logo" width="560" />
+
 **Reproducible Salesforce test data for sandboxes and scratch orgs.**
 
 Harvester is an open source tool for generating, previewing, and loading connected test scenarios. A subsequent capability will harvest a selected set of records from one sandbox and recreate their relationships in another. The project is at the design and scaffold stage; **it cannot connect to an org or load records yet**.
