@@ -1,0 +1,31 @@
+{
+  "$schemaVersion": "0.1-draft",
+  "name": "account-opportunity",
+  "seed": 1042,
+  "nodes": [
+    {
+      "key": "account",
+      "object": "Account",
+      "count": 1,
+      "fields": { "Name": "Harvester Sample Account" }
+    },
+    {
+      "key": "contacts",
+      "object": "Contact",
+      "count": 2,
+      "fields": { "LastName": "Sample Contact" },
+      "relationships": { "AccountId": "account" }
+    },
+    {
+      "key": "opportunity",
+      "object": "Opportunity",
+      "count": 1,
+      "fields": {
+        "Name": "Harvester Sample Opportunity",
+        "StageName": "Prospecting",
+        "CloseDate": "2026-12-31"
+      },
+      "relationships": { "AccountId": "account" }
+    }
+  ]
+}
