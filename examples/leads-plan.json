@@ -1,0 +1,305 @@
+{
+  "mode": "PLAN",
+  "rows": [
+    {
+      "key": "HV-LEAD-001",
+      "firstName": "Olivia",
+      "lastName": "Patel",
+      "company": "Cobalt Digital",
+      "email": "harvester.lead.001@example.com",
+      "phone": "020 7946 0000",
+      "city": "Manchester",
+      "description": "Synthetic Harvester lead 001; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-002",
+      "firstName": "Ravi",
+      "lastName": "Jones",
+      "company": "Cobalt Services",
+      "email": "harvester.lead.002@example.com",
+      "phone": "020 7946 0001",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 002; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-003",
+      "firstName": "Noah",
+      "lastName": "Grant",
+      "company": "Harbour Studio",
+      "email": "harvester.lead.003@example.com",
+      "phone": "020 7946 0002",
+      "city": "Manchester",
+      "description": "Synthetic Harvester lead 003; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-004",
+      "firstName": "Farah",
+      "lastName": "Farrell",
+      "company": "Blue Services",
+      "email": "harvester.lead.004@example.com",
+      "phone": "020 7946 0003",
+      "city": "London",
+      "description": "Synthetic Harvester lead 004; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-005",
+      "firstName": "Olivia",
+      "lastName": "Adebayo",
+      "company": "Silver Works",
+      "email": "harvester.lead.005@example.com",
+      "phone": "020 7946 0004",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 005; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-006",
+      "firstName": "Olivia",
+      "lastName": "Jones",
+      "company": "Summit Energy",
+      "email": "harvester.lead.006@example.com",
+      "phone": "020 7946 0005",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 006; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-007",
+      "firstName": "Olivia",
+      "lastName": "Ndlovu",
+      "company": "Blue Digital",
+      "email": "harvester.lead.007@example.com",
+      "phone": "020 7946 0006",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 007; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-008",
+      "firstName": "Eleanor",
+      "lastName": "Davies",
+      "company": "River Consulting",
+      "email": "harvester.lead.008@example.com",
+      "phone": "020 7946 0007",
+      "city": "Cardiff",
+      "description": "Synthetic Harvester lead 008; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-009",
+      "firstName": "Leila",
+      "lastName": "Bennett",
+      "company": "River Systems",
+      "email": "harvester.lead.009@example.com",
+      "phone": "020 7946 0008",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 009; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-010",
+      "firstName": "George",
+      "lastName": "Patel",
+      "company": "Harbour Studio",
+      "email": "harvester.lead.010@example.com",
+      "phone": "020 7946 0009",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 010; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-011",
+      "firstName": "Maya",
+      "lastName": "Bennett",
+      "company": "Elm Works",
+      "email": "harvester.lead.011@example.com",
+      "phone": "020 7946 0010",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 011; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-012",
+      "firstName": "Amara",
+      "lastName": "Clarke",
+      "company": "River Energy",
+      "email": "harvester.lead.012@example.com",
+      "phone": "020 7946 0011",
+      "city": "London",
+      "description": "Synthetic Harvester lead 012; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-013",
+      "firstName": "Isaac",
+      "lastName": "Adebayo",
+      "company": "River Energy",
+      "email": "harvester.lead.013@example.com",
+      "phone": "020 7946 0012",
+      "city": "London",
+      "description": "Synthetic Harvester lead 013; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-014",
+      "firstName": "Farah",
+      "lastName": "Khan",
+      "company": "Silver Consulting",
+      "email": "harvester.lead.014@example.com",
+      "phone": "020 7946 0013",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 014; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-015",
+      "firstName": "Theo",
+      "lastName": "Lewis",
+      "company": "Elm Services",
+      "email": "harvester.lead.015@example.com",
+      "phone": "020 7946 0014",
+      "city": "London",
+      "description": "Synthetic Harvester lead 015; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-016",
+      "firstName": "Sofia",
+      "lastName": "Owusu",
+      "company": "Elm Consulting",
+      "email": "harvester.lead.016@example.com",
+      "phone": "020 7946 0015",
+      "city": "London",
+      "description": "Synthetic Harvester lead 016; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-017",
+      "firstName": "Zara",
+      "lastName": "Reed",
+      "company": "Harbour Systems",
+      "email": "harvester.lead.017@example.com",
+      "phone": "020 7946 0016",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 017; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-018",
+      "firstName": "Jasmine",
+      "lastName": "Morgan",
+      "company": "Cedar Energy",
+      "email": "harvester.lead.018@example.com",
+      "phone": "020 7946 0017",
+      "city": "Manchester",
+      "description": "Synthetic Harvester lead 018; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-019",
+      "firstName": "Zara",
+      "lastName": "Patel",
+      "company": "Harbour Services",
+      "email": "harvester.lead.019@example.com",
+      "phone": "020 7946 0018",
+      "city": "Cardiff",
+      "description": "Synthetic Harvester lead 019; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-020",
+      "firstName": "Hannah",
+      "lastName": "Morgan",
+      "company": "Delta Consulting",
+      "email": "harvester.lead.020@example.com",
+      "phone": "020 7946 0019",
+      "city": "Cardiff",
+      "description": "Synthetic Harvester lead 020; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-021",
+      "firstName": "Victor",
+      "lastName": "Owusu",
+      "company": "Harbour Consulting",
+      "email": "harvester.lead.021@example.com",
+      "phone": "020 7946 0020",
+      "city": "Manchester",
+      "description": "Synthetic Harvester lead 021; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-022",
+      "firstName": "Theo",
+      "lastName": "Grant",
+      "company": "Delta Systems",
+      "email": "harvester.lead.022@example.com",
+      "phone": "020 7946 0021",
+      "city": "Manchester",
+      "description": "Synthetic Harvester lead 022; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-023",
+      "firstName": "Theo",
+      "lastName": "Morgan",
+      "company": "Willow Systems",
+      "email": "harvester.lead.023@example.com",
+      "phone": "020 7946 0022",
+      "city": "Cardiff",
+      "description": "Synthetic Harvester lead 023; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-024",
+      "firstName": "George",
+      "lastName": "Grant",
+      "company": "Harbour Technology",
+      "email": "harvester.lead.024@example.com",
+      "phone": "020 7946 0023",
+      "city": "Edinburgh",
+      "description": "Synthetic Harvester lead 024; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-025",
+      "firstName": "Farah",
+      "lastName": "Davies",
+      "company": "Delta Studio",
+      "email": "harvester.lead.025@example.com",
+      "phone": "020 7946 0024",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 025; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-026",
+      "firstName": "Farah",
+      "lastName": "Reed",
+      "company": "Silver Studio",
+      "email": "harvester.lead.026@example.com",
+      "phone": "020 7946 0025",
+      "city": "London",
+      "description": "Synthetic Harvester lead 026; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-027",
+      "firstName": "Noah",
+      "lastName": "Singh",
+      "company": "Amber Systems",
+      "email": "harvester.lead.027@example.com",
+      "phone": "020 7946 0026",
+      "city": "Leeds",
+      "description": "Synthetic Harvester lead 027; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-028",
+      "firstName": "George",
+      "lastName": "Grant",
+      "company": "Cobalt Studio",
+      "email": "harvester.lead.028@example.com",
+      "phone": "020 7946 0027",
+      "city": "Cardiff",
+      "description": "Synthetic Harvester lead 028; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-029",
+      "firstName": "Victor",
+      "lastName": "Davies",
+      "company": "Blue Energy",
+      "email": "harvester.lead.029@example.com",
+      "phone": "020 7946 0028",
+      "city": "London",
+      "description": "Synthetic Harvester lead 029; seed 1042."
+    },
+    {
+      "key": "HV-LEAD-030",
+      "firstName": "Amara",
+      "lastName": "Jones",
+      "company": "Blue Consulting",
+      "email": "harvester.lead.030@example.com",
+      "phone": "020 7946 0029",
+      "city": "Bristol",
+      "description": "Synthetic Harvester lead 030; seed 1042."
+    }
+  ]
+}
